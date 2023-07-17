@@ -184,38 +184,96 @@ public class Practice {
 
         // Take input from user till user does not press X or x
 
-        int ans = 0;
-        while (true) {
-            System.out.print("Enter the operator: ");
-            char op = input.next().trim().charAt(0);
-            if (op == '+' || op == '-' || op == '*' || op == '/' || op == '%') {
-                System.out.print("Enter two numbers: ");
-                int num1 = input.nextInt();
-                int num2 = input.nextInt();
+//        int ans = 0;
+//        while (true) {
+//            System.out.print("Enter the operator: ");
+//            char op = input.next().trim().charAt(0);
+//            if (op == '+' || op == '-' || op == '*' || op == '/' || op == '%') {
+//                System.out.print("Enter two numbers: ");
+//                int num1 = input.nextInt();
+//                int num2 = input.nextInt();
+//
+//                if (op == '+') {
+//                    ans = num1 + num2;
+//                }
+//                if (op == '-') {
+//                    ans = num1 - num2;
+//                }
+//                if (op == '*') {
+//                    ans = num1 * num2;
+//                }
+//                if (op == '/') {
+//                    if (num2 != 0) {
+//                        ans = num1 / num2;
+//                    }
+//                }
+//                if (op == '%') {
+//                    ans = num1 % num2;
+//                }
+//            } else if (op == 'x' || op == 'X') {
+//                break;
+//            } else {
+//                System.out.println("Invalid Operation!");
+//            }
+//            System.out.println(ans);
+//        }
 
-                if (op == '+') {
-                    ans = num1 + num2;
-                }
-                if (op == '-') {
-                    ans = num1 - num2;
-                }
-                if (op == '*') {
-                    ans = num1 * num2;
-                }
-                if (op == '/') {
-                    if (num2 != 0) {
-                        ans = num1 / num2;
-                    }
-                }
-                if (op == '%') {
-                    ans = num1 % num2;
-                }
-            } else if (op == 'x' || op == 'X') {
-                break;
-            } else {
-                System.out.println("Invalid Operation!");
-            }
-            System.out.println(ans);
-        }
+
+// -------------------------------------------------------------------------
+
+        // PRIME NUMBERS
+//
+//        System.out.print("Enter number: ");
+//        int n = input.nextInt();
+//        boolean ans = isPrime(n);
+//        System.out.println(ans);
+//    }
+//
+//    static boolean isPrime(int n) {
+//        if (n <= 1) {
+//            return false;
+//        }
+//        int c = 2;
+//        while (c * c <= n) {
+//            if (n % c == 0) {
+//                return false;
+//            }
+//            c++;
+//        }
+//        return c * c > n;
+//
+//-------------------------------------------------------------
+//
+        // ARMSTRONG NUMBER
+//
+        //System.out.print("Enter number: ");
+        //int n = input.nextInt();
+        // System.out.println(isArmstrong(n));
+
+//        for (int i = 100; i < 1000; i++) {    //Printing 3 digit Armstrong numbers
+//            if (isArmstrong(i)) {
+//                System.out.print(i + " ");
+//            }
+//        }
+//
+//    }
+//        static boolean isArmstrong(int n) {
+//            int original = n;
+//            int sum = 0;
+//
+//            while (n > 0) {
+//                int rem = n % 10;
+//                n = n / 10;
+//                sum = sum + rem*rem*rem;
+//            }
+//
+//            if (sum == original) {
+//                return true;
+//            }
+//            return false;
+//
+//        }
+
+//----------------------------------------------------------------------
     }
 }
